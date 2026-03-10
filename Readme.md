@@ -95,13 +95,17 @@ The AI will process the 20 features and display the estimated market value.
 
 
 
-├── House_Price_Analysis.ipynb  # Full training & EDA
-├── app.py                      # Streamlit Web Application
-├── deploy.py                   # Python script for CLI inference
-├── house_model.keras           # Trained Neural Network weights
-├── scaler_weights.pkl          # Saved MinMaxScaler (20 features)
-├── requirements.txt            # Project dependencies
-└── README.md                   # Project documentation
+<details>
+  <summary><b>🚀 Click to expand Project Structure</b></summary>
 
+  ```text
+  📦 House-Price-Prediction
+   ┣ 📜 House_Price_Analysis.ipynb
+   ┣ 🌐 app.py
+   ┣ 🐍 deploy.py
+   ┣ 🧠 house_model.keras
+   ┣ ⚖️ scaler_weights.pkl
+   ┣ 📋 requirements.txt
+   ┗ 📝 README.md
 
 
