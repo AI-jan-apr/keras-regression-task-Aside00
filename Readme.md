@@ -67,3 +67,41 @@ The model was trained for **400 epochs**. Evaluation metrics show high precision
 3. Run the Jupyter Notebook to train the model and see the results.
 
 
+## 🌐 Live Interactive Demo (Streamlit)
+I have built a web interface using **Streamlit** to allow users to interact with the model in real-time. Instead of raw code, you can now use sliders and input fields to estimate house prices.
+
+### 📸 UI Preview
+
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/0aafc073-8d09-4cbd-a2b8-f569af95c161" />
+
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/1fbd0ff1-b3d6-470f-be2b-432cf7933b09" />> 
+
+
+### 🛠️ How to Run the App Locally
+1. **Install Dependencies:**
+   ```bash
+   pip install streamlit tensorflow joblib numpy
+
+   streamlit run app.py
+
+
+Usage:
+
+Adjust the house features (Bedrooms, Sqft, Location, etc.).
+
+Click the "Predict Price" button.
+
+The AI will process the 20 features and display the estimated market value.
+
+
+
+├── House_Price_Analysis.ipynb  # Full training & EDA
+├── app.py                      # Streamlit Web Application
+├── deploy.py                   # Python script for CLI inference
+├── house_model.keras           # Trained Neural Network weights
+├── scaler_weights.pkl          # Saved MinMaxScaler (20 features)
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project documentation
+
+
+
