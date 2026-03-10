@@ -104,7 +104,7 @@ The AI will process the 20 features and display the estimated market value.
    ┣ 🌐 app.py
    ┣ 🐍 deploy.py
    ┣ 🧠 house_model.keras
-   ┣ ⚖️ scaler_weights.pkl
+   ┣ 📜 scaler_weights.pkl
    ┣ 📋 requirements.txt
    ┗ 📝 README.md
 
